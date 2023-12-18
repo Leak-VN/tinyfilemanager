@@ -109,7 +109,7 @@ $root_url = 'data/';
 Then, change another config what you want, and add a new volume `-v /absolute/path/index.php:/var/www/html/index.php` in `docker run` command, like this:
 
 ```shell
-$ docker run -d -v /absolute/path:/var/www/html/data -v /absolute/path/index.php:/var/www/html/index.php -p 80:80 --restart=always --name tinyfilemanager tinyfilemanager/tinyfilemanager:master
+$ docker run -d -v /absolute/path:/var/www/html/data -v /absolute/path/index.php:/var/www/html/index.php -p 80:80 --restart=always --name tinyfilemanager vouu/tinyfilemanager
 ```
 
 #### Stop running
